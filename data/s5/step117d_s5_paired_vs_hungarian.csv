@@ -1,0 +1,8 @@
+algorithm,comparator,seeds,mean_diff_completed_per_100_requests,total_diff_completed_across_20_seeds,paired_t_95ci_low_unadjusted,paired_t_95ci_high_unadjusted,pairs_better,pairs_equal,pairs_worse,two_sided_exact_signflip_p,holm_p_7_fulfillment_tests,significant_at_0_05_holm
+greedy,hungarian,20,0.15,3,-0.9890824768806851,1.289082476880685,5,8,7,0.85693359375,1.0,False
+mcmf,hungarian,20,0.4,8,-0.04008550255116672,0.8400855025511668,4,16,0,0.125,0.5,False
+auction,hungarian,20,0.05,1,-0.7163982694607,0.8163982694607,4,15,1,1.0,1.0,False
+random,hungarian,20,-13.75,-275,-15.54583928951411,-11.95416071048589,0,0,20,1.9073486328125e-06,1.33514404296875e-05,True
+roundrobin,hungarian,20,-19.9,-398,-21.1326509830115,-18.667349016988496,0,0,20,1.9073486328125e-06,1.33514404296875e-05,True
+greedy_minmax,hungarian,20,-2.05,-41,-3.5258963862915884,-0.5741036137084115,4,3,13,0.0122528076171875,0.0612640380859375,False
+annealing,hungarian,20,0.2,4,-0.08810358967048615,0.48810358967048617,2,18,0,0.5,1.0,False

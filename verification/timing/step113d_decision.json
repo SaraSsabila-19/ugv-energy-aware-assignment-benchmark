@@ -1,0 +1,55 @@
+{
+  "step": "113D",
+  "reviewed_utc": "2026-10-30T11:38:48.226389+00:00",
+  "reviewed_source": "${PROJECT_ROOT}/research_revision_v2/step113c_fix21_geometry_candidate_pilot/step113c_progress.json",
+  "fix21_source_sha256": "2e466def64d70a710fa43a77d9d4c1d3229a6c8cff5a080777e9309f5c303e15",
+  "geometry_source_sha256": "518eeb94dd2e794d9d6b8460de8e94332cb6ef8a1da75d3142b262cd43d62975",
+  "validated_archives": 16,
+  "outcome_row_equivalence_in_tested_cases": true,
+  "critical_deadline_gate_passed": false,
+  "promote_to_main_benchmark": false,
+  "decision": "RETAIN AS EXPERIMENTAL ONLY; DO NOT PROMOTE",
+  "reasons": [
+    "Critical S3 Greedy Min-Max target did not meet 300 ms with a 10% timing margin in all repetitions.",
+    "Only three selected workloads tested; full 640-case equivalence and fresh tail-latency qualification absent."
+  ],
+  "paired_results": [
+    {
+      "workload": "S3_greedy_minmax_seed10001",
+      "repetitions": 5,
+      "fix21_mean_ms": 321.2247669987846,
+      "geometry_mean_ms": 307.32112820260227,
+      "fix21_median_ms": 308.8941149908351,
+      "geometry_median_ms": 305.15050700341817,
+      "geometry_target_exceeds_300ms": 5,
+      "geometry_max_target_ms": 315.29671800672077,
+      "mean_speedup_percent": 4.328320921853123,
+      "outcome_row_equivalence": true
+    },
+    {
+      "workload": "S4_auction_seed15001",
+      "repetitions": 2,
+      "fix21_mean_ms": 210.9714160033036,
+      "geometry_mean_ms": 219.5024525062763,
+      "fix21_median_ms": 210.9714160033036,
+      "geometry_median_ms": 219.5024525062763,
+      "geometry_target_exceeds_300ms": 0,
+      "geometry_max_target_ms": 226.76286900241394,
+      "mean_speedup_percent": -4.043693057849662,
+      "outcome_row_equivalence": true
+    },
+    {
+      "workload": "S1_hungarian_seed1001",
+      "repetitions": 1,
+      "fix21_mean_ms": 93.22318200429436,
+      "geometry_mean_ms": 84.42464499967173,
+      "fix21_median_ms": 93.22318200429436,
+      "geometry_median_ms": 84.42464499967173,
+      "geometry_target_exceeds_300ms": 0,
+      "geometry_max_target_ms": 84.42464499967173,
+      "mean_speedup_percent": 9.438142761762114,
+      "outcome_row_equivalence": true
+    }
+  ],
+  "scientific_note": "The original frozen 640-run study retains all historical timing violations; these supplementary timing tests do not establish hard real-time guarantees."
+}

@@ -1,0 +1,22 @@
+{
+  "frozen_simulator_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "primary_campaign": {
+    "checkpoint_sha256": "b8c7f04cdd7781d606ea5632985ef00c791e77a6e21e30dfa8a7a1f363b8a86c",
+    "controller": "scripts/campaigns/step108_full640_controller.py",
+    "controller_sha256": "5fe2614779dc6bbe4157435d3e9be665bb029a06d9c5d01b33403c78ce190489",
+    "prevalidated_runs": 32,
+    "qualification": "Controller identified from research workflow; original checkpoint does not record its SHA256. The 32 prevalidated runs have separate origins.",
+    "runs": 640,
+    "unified_execution_runs": 608
+  },
+  "s5_campaign": {
+    "checkpoint_sha256": "50c1ccfebb7cc235166e85c33117783a4af84d8bdc497ed394ffa9598f42c9f5",
+    "controller": "scripts/campaigns/step117c_s5_full160_campaign_kernelguard_v2.py",
+    "controller_sha256": "3f155ef34960bac970d242dbf6da4043b8aaae9400c480f189d6c9e1f24b436f",
+    "execution_kernel": "7.0.0-42-generic",
+    "frozen_kernel": "7.0.0-38-generic",
+    "qualification": "Controller SHA256 matches accepted S5 checkpoint. Kernel revision exception was documented.",
+    "runs": 160
+  },
+  "study": "UGV energy-aware assignment benchmark"
+}

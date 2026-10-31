@@ -1,0 +1,247 @@
+{
+  "status": "READ_ONLY_LATENCY_AUDIT_PASSED",
+  "source_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "manifest_sha256": "33361ce7a27c547cfa0dbb1a1fd37506b75d263d3ccf2334805428d545096189",
+  "source_freeze_sha256": "f44c29293608268eae77ab5c4fe1a5a890e0671af78cd0ac100ccae8af04683b",
+  "runs": 640,
+  "paired_workloads": 80,
+  "dispatch_invocations": 25512,
+  "over_300ms": 77,
+  "over_300ms_pct": 0.301818751959862,
+  "scope": "Instrumented Python dispatch invocations only; not a system-level hard real-time guarantee.",
+  "phases": [
+    "matrix_ms",
+    "solver_ms",
+    "cardinality_diagnostic_ms",
+    "activation_ms",
+    "other_dispatch_ms"
+  ],
+  "notes": [
+    "matrix_ms includes pair_cost evaluation over candidate vehicle/request combinations.",
+    "solver_ms isolates algorithm matching; total dispatch can be much larger.",
+    "cardinality_diagnostic_ms includes validation and maximum feasible matching diagnostic.",
+    "activation_ms includes committing assignments and emitting records.",
+    "other_dispatch_ms includes loop and cost diagnostic overhead and other non-attributed code.",
+    "Timing is wall-clock, on one non-real-time software environment. Measured p99 below 300ms does not imply a 300ms bound.",
+    "Outliers are retained. Do not silently omit these calls or change the frozen source."
+  ],
+  "scenario_summary": [
+    {
+      "scenario": "S1",
+      "algorithm": "ALL",
+      "dispatch_invocations": 3840,
+      "over_300ms": 0,
+      "missed_pct": 0.0,
+      "measured_p50_ms": 23.26332399934472,
+      "measured_p95_ms": 62.49905180138739,
+      "measured_p99_ms": 84.28048112193217,
+      "max_ms": 148.5409909982991,
+      "mean_ms": 27.232024299746154,
+      "total_candidate_pairs": 55054,
+      "total_feasible_pairs": 51729,
+      "mean_candidate_pairs": 14.336979166666667,
+      "mean_rounds": 1,
+      "missed_mean_candidate_pairs": null,
+      "missed_mean_rounds": null,
+      "total_dispatch_phase_ms": 104570.97331102523
+    },
+    {
+      "scenario": "S2",
+      "algorithm": "ALL",
+      "dispatch_invocations": 5600,
+      "over_300ms": 1,
+      "missed_pct": 0.017857142857142856,
+      "measured_p50_ms": 36.00820200153976,
+      "measured_p95_ms": 99.14733889727358,
+      "measured_p99_ms": 135.8716608983196,
+      "max_ms": 422.4430169997504,
+      "mean_ms": 42.78305239232817,
+      "total_candidate_pairs": 137650,
+      "total_feasible_pairs": 126336,
+      "mean_candidate_pairs": 24.580357142857142,
+      "mean_rounds": 1,
+      "missed_mean_candidate_pairs": 36,
+      "missed_mean_rounds": 1,
+      "total_dispatch_phase_ms": 239585.09339703777
+    },
+    {
+      "scenario": "S3",
+      "algorithm": "ALL",
+      "dispatch_invocations": 7920,
+      "over_300ms": 35,
+      "missed_pct": 0.44191919191919193,
+      "measured_p50_ms": 66.51014249837317,
+      "measured_p95_ms": 193.92467224715796,
+      "measured_p99_ms": 269.0370188607993,
+      "max_ms": 2059.2751189979026,
+      "mean_ms": 81.22328287764512,
+      "total_candidate_pairs": 363831,
+      "total_feasible_pairs": 314282,
+      "mean_candidate_pairs": 45.938257575757575,
+      "mean_rounds": 1,
+      "missed_mean_candidate_pairs": 104.97142857142858,
+      "missed_mean_rounds": 1,
+      "total_dispatch_phase_ms": 643288.4003909493
+    },
+    {
+      "scenario": "S4",
+      "algorithm": "ALL",
+      "dispatch_invocations": 8152,
+      "over_300ms": 41,
+      "missed_pct": 0.5029440628066733,
+      "measured_p50_ms": 68.3210714996676,
+      "measured_p95_ms": 195.3709808505664,
+      "measured_p99_ms": 270.9388199184831,
+      "max_ms": 458.99756099970546,
+      "mean_ms": 81.14738305186015,
+      "total_candidate_pairs": 194474,
+      "total_feasible_pairs": 121723,
+      "mean_candidate_pairs": 23.855986261040236,
+      "mean_rounds": 1.0371687929342492,
+      "missed_mean_candidate_pairs": 55.170731707317074,
+      "missed_mean_rounds": 1.1219512195121952,
+      "total_dispatch_phase_ms": 661513.4666387639
+    },
+    {
+      "scenario": "ALL",
+      "algorithm": "ALL",
+      "dispatch_invocations": 25512,
+      "over_300ms": 77,
+      "missed_pct": 0.301818751959862,
+      "measured_p50_ms": 48.48038250020181,
+      "measured_p95_ms": 172.77980510007177,
+      "measured_p99_ms": 248.70950457163414,
+      "max_ms": 2059.2751189979026,
+      "mean_ms": 64.63460072662967,
+      "total_candidate_pairs": 751009,
+      "total_feasible_pairs": 614070,
+      "mean_candidate_pairs": 29.437480401379744,
+      "mean_rounds": 1.011876763875823,
+      "missed_mean_candidate_pairs": 77.55844155844156,
+      "missed_mean_rounds": 1.0649350649350648,
+      "total_dispatch_phase_ms": 1648957.9337377762
+    }
+  ],
+  "phase_summary": [
+    {
+      "scope": "ALL DISPATCHES",
+      "phase": "matrix_ms",
+      "count": 25512,
+      "phase_total_ms": 1589053.2250580091,
+      "share_of_total_dispatch_ms": 96.36711722875924,
+      "phase_mean_ms_per_dispatch": 62.2865014525717
+    },
+    {
+      "scope": "ALL DISPATCHES",
+      "phase": "solver_ms",
+      "count": 25512,
+      "phase_total_ms": 34918.05269321412,
+      "share_of_total_dispatch_ms": 2.1175829885522677,
+      "phase_mean_ms_per_dispatch": 1.3686913097057902
+    },
+    {
+      "scope": "ALL DISPATCHES",
+      "phase": "cardinality_diagnostic_ms",
+      "count": 25512,
+      "phase_total_ms": 2556.6551748634083,
+      "share_of_total_dispatch_ms": 0.1550467190553557,
+      "phase_mean_ms_per_dispatch": 0.1002138278011684
+    },
+    {
+      "scope": "ALL DISPATCHES",
+      "phase": "activation_ms",
+      "count": 25512,
+      "phase_total_ms": 14074.882368140607,
+      "share_of_total_dispatch_ms": 0.8535622455956994,
+      "phase_mean_ms_per_dispatch": 0.5516965493940345
+    },
+    {
+      "scope": "ALL DISPATCHES",
+      "phase": "other_dispatch_ms",
+      "count": 25512,
+      "phase_total_ms": 8355.118443549145,
+      "share_of_total_dispatch_ms": 0.5066908180374363,
+      "phase_mean_ms_per_dispatch": 0.3274975871569906
+    },
+    {
+      "scope": "MISSED DISPATCHES",
+      "phase": "matrix_ms",
+      "count": 77,
+      "phase_total_ms": 27997.201681013394,
+      "share_of_total_dispatch_ms": 98.52596316634802,
+      "phase_mean_ms_per_dispatch": 363.60002183134276
+    },
+    {
+      "scope": "MISSED DISPATCHES",
+      "phase": "solver_ms",
+      "count": 77,
+      "phase_total_ms": 213.51567300007446,
+      "share_of_total_dispatch_ms": 0.7513907130122115,
+      "phase_mean_ms_per_dispatch": 2.772930818182785
+    },
+    {
+      "scope": "MISSED DISPATCHES",
+      "phase": "cardinality_diagnostic_ms",
+      "count": 77,
+      "phase_total_ms": 9.426946970052086,
+      "share_of_total_dispatch_ms": 0.033174709405774036,
+      "phase_mean_ms_per_dispatch": 0.12242788272794916
+    },
+    {
+      "scope": "MISSED DISPATCHES",
+      "phase": "activation_ms",
+      "count": 77,
+      "phase_total_ms": 144.99523996710195,
+      "share_of_total_dispatch_ms": 0.5102579834606308,
+      "phase_mean_ms_per_dispatch": 1.8830550645078175
+    },
+    {
+      "scope": "MISSED DISPATCHES",
+      "phase": "other_dispatch_ms",
+      "count": 77,
+      "phase_total_ms": 50.92540402620216,
+      "share_of_total_dispatch_ms": 0.17921342777337776,
+      "phase_mean_ms_per_dispatch": 0.6613688834571709
+    },
+    {
+      "scope": "ON-TIME DISPATCHES",
+      "phase": "matrix_ms",
+      "count": 25435,
+      "phase_total_ms": 1561056.0233769957,
+      "share_of_total_dispatch_ms": 96.32926204738436,
+      "phase_mean_ms_per_dispatch": 61.37432763424398
+    },
+    {
+      "scope": "ON-TIME DISPATCHES",
+      "phase": "solver_ms",
+      "count": 25435,
+      "phase_total_ms": 34704.53702021405,
+      "share_of_total_dispatch_ms": 2.141539054838905,
+      "phase_mean_ms_per_dispatch": 1.364440220963792
+    },
+    {
+      "scope": "ON-TIME DISPATCHES",
+      "phase": "cardinality_diagnostic_ms",
+      "count": 25435,
+      "phase_total_ms": 2547.2282278933562,
+      "share_of_total_dispatch_ms": 0.15718373446228076,
+      "phase_mean_ms_per_dispatch": 0.10014657864727172
+    },
+    {
+      "scope": "ON-TIME DISPATCHES",
+      "phase": "activation_ms",
+      "count": 25435,
+      "phase_total_ms": 13929.887128173505,
+      "share_of_total_dispatch_ms": 0.8595820568678292,
+      "phase_mean_ms_per_dispatch": 0.5476660950726756
+    },
+    {
+      "scope": "ON-TIME DISPATCHES",
+      "phase": "other_dispatch_ms",
+      "count": 25435,
+      "phase_total_ms": 8304.193039522943,
+      "share_of_total_dispatch_ms": 0.5124331064466133,
+      "phase_mean_ms_per_dispatch": 0.3264868503842321
+    }
+  ]
+}

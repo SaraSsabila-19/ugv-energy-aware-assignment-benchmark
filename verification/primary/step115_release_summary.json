@@ -1,0 +1,16 @@
+{
+  "step": "115",
+  "status": "REPRODUCIBILITY_INDEX_VERIFIED",
+  "created_utc": "2026-10-30T11:48:50.918377+00:00",
+  "accepted_source_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "accepted_manifest_sha256": "33361ce7a27c547cfa0dbb1a1fd37506b75d263d3ccf2334805428d545096189",
+  "original_runs": 640,
+  "scenario_seed_pairs": 80,
+  "archive_files_sha256_verified": 8320,
+  "dispatches": 25512,
+  "over_300ms": 77,
+  "fix21_promoted": false,
+  "physical_energy_calibrated": false,
+  "raw_640_archives_embedded": false,
+  "frozen_bundle": "included"
+}

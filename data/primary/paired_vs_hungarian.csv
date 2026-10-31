@@ -1,0 +1,85 @@
+scenario,algorithm,reference,metric,direction,n_paired_seeds,mean_paired_difference,median_paired_difference,bootstrap_95pct_lo,bootstrap_95pct_hi,wins,losses,ties
+S1,greedy,hungarian,battery_Wh,lower is better,20,2.885437195021825,-5.5706550483591855e-12,-28.00922126429524,32.588943857753804,10,8,2
+S1,greedy,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,greedy,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-1.950290149999995,0.0,-11.411714639999996,5.978288736250004,7,6,7
+S1,mcmf,hungarian,battery_Wh,lower is better,20,-7.87849785410799e-12,0.0,-1.6519265955139418e-11,1.9326762412674725e-13,8,2,10
+S1,mcmf,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,mcmf,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.0,0.0,0.0,0.0,0,0,20
+S1,auction,hungarian,battery_Wh,lower is better,20,3.096037372634089,0.0,-0.09470640655557844,9.38281852446187,4,6,10
+S1,auction,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,auction,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-4.888861300000004,0.0,-12.920157092500002,0.0005748999999980242,3,1,16
+S1,random,hungarian,battery_Wh,lower is better,20,1258.6528134408677,1275.475601653711,1180.2853825757861,1336.2279584733556,0,20,0
+S1,random,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,random,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-31.3059587,-18.154231999999993,-43.96939678125,-19.06230782875,19,1,0
+S1,roundrobin,hungarian,battery_Wh,lower is better,20,1728.5603320026626,1759.741584350632,1669.7165617404746,1788.4554618931888,0,20,0
+S1,roundrobin,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,roundrobin,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-61.16454805,-60.208693999999994,-75.0468987075,-47.717758795,19,1,0
+S1,greedy_minmax,hungarian,battery_Wh,lower is better,20,23.781699236681753,14.443986106662123,-11.117865782074253,60.61595406055391,5,12,3
+S1,greedy_minmax,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,greedy_minmax,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,1.4323055499999982,0.0,-9.6530170175,12.3993820525,8,8,4
+S1,annealing,hungarian,battery_Wh,lower is better,20,2.0463630789890886e-13,0.0,-6.9584871198458135e-12,5.161666649655667e-12,1,7,12
+S1,annealing,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S1,annealing,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-0.2403451000000004,0.0,-0.7210353000000012,0.0,1,0,19
+S2,greedy,hungarian,battery_Wh,lower is better,20,-27.203211296535596,0.5020622591480333,-87.48429336500402,29.659958593709614,10,10,0
+S2,greedy,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,greedy,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-11.651100550000002,0.10277350000001206,-23.589680933750014,-0.29176966999999654,9,10,1
+S2,mcmf,hungarian,battery_Wh,lower is better,20,-2.4101609596982597e-12,0.0,-9.845280146691948e-12,4.160938260611147e-12,7,6,7
+S2,mcmf,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,mcmf,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.0,0.0,0.0,0.0,0,0,20
+S2,auction,hungarian,battery_Wh,lower is better,20,6.96686730764718,2.7284841053187847e-12,-2.8427393772290087e-12,20.900601922942975,5,12,3
+S2,auction,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,auction,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.08786580000000015,0.0,0.0,0.2635974000000004,0,1,19
+S2,random,hungarian,battery_Wh,lower is better,20,2201.2588742620424,2212.479853947614,2100.00946729306,2314.529062368,0,20,0
+S2,random,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,random,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-43.13875715,-51.505504000000016,-51.82374446125001,-33.46757072000002,19,1,0
+S2,roundrobin,hungarian,battery_Wh,lower is better,20,3080.8736508824913,3098.442483679717,2977.4717088637594,3185.2441135107924,0,20,0
+S2,roundrobin,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,roundrobin,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-74.15664435000001,-74.4146405,-84.1237711025,-64.2941128425,20,0,0
+S2,greedy_minmax,hungarian,battery_Wh,lower is better,20,50.17704676766082,50.42889358877687,-4.794372814554653,103.20588843973093,6,13,1
+S2,greedy_minmax,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,greedy_minmax,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.3194864999999993,0.5936515000000213,-7.635150176250002,7.967185964999988,9,10,1
+S2,annealing,hungarian,battery_Wh,lower is better,20,-2.2964741219766437e-12,0.0,-9.231371222995222e-12,3.706759343913283e-12,9,8,3
+S2,annealing,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S2,annealing,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.0,0.0,0.0,0.0,0,0,20
+S3,greedy,hungarian,battery_Wh,lower is better,20,19.679185624993217,18.058488580217727,-48.357600674511424,87.38233968327506,8,12,0
+S3,greedy,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,greedy,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,1.6035241499999984,4.107344499999982,-4.4322930112500005,6.841245967499999,5,15,0
+S3,mcmf,hungarian,battery_Wh,lower is better,20,2.3327548878243305,0.0,-8.430805531412854,15.429070194881481,4,9,7
+S3,mcmf,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,mcmf,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.4777409000000006,0.0,-0.2766120000000029,1.7098347000000047,1,1,18
+S3,auction,hungarian,battery_Wh,lower is better,20,7.585353477020499,0.0,-1.3689857030799908,22.7920560087694,8,9,3
+S3,auction,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,auction,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.6862547000000007,0.0,0.0,1.806462350000001,0,3,17
+S3,random,hungarian,battery_Wh,lower is better,20,4107.088856061848,4091.9364125936027,3972.388590784645,4236.22197166969,0,20,0
+S3,random,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,random,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-26.240925950000005,-25.903880500000014,-31.312237010000008,-21.378315081250012,20,0,0
+S3,roundrobin,hungarian,battery_Wh,lower is better,20,5045.115321917243,5081.606744257627,4872.145168636491,5221.159244273848,0,20,0
+S3,roundrobin,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,roundrobin,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-50.199819649999995,-47.4809685,-55.957342436249995,-44.95750238249999,20,0,0
+S3,greedy_minmax,hungarian,battery_Wh,lower is better,20,347.28655835851106,318.4063861622699,200.79191504339204,481.24204330622285,3,17,0
+S3,greedy_minmax,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,greedy_minmax,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,7.823487650000006,11.227610500000026,-0.20477424124998928,14.85883917375,5,15,0
+S3,annealing,hungarian,battery_Wh,lower is better,20,13.68944542809918,3.637978807091713e-12,-9.4777412697228,42.41196994364697,6,11,3
+S3,annealing,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S3,annealing,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-1.2143511999999959,0.0,-3.4422434912499984,0.8753362562500066,4,2,14
+S4,greedy,hungarian,battery_Wh,lower is better,20,-26.72401358375305,-5.195291244735927,-115.14992737665894,64.67298005542642,10,10,0
+S4,greedy,hungarian,completed,higher is better,20,-0.05,0.0,-0.15,0.0,0,1,19
+S4,greedy,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-1.1715805999999986,-1.0916525000000092,-7.541295916249992,4.723324712500003,11,9,0
+S4,mcmf,hungarian,battery_Wh,lower is better,20,-23.89193215921682,0.0,-61.521454855127516,-4.500861905398795e-12,8,3,9
+S4,mcmf,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S4,mcmf,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.7033553000000012,0.0,0.0,1.8194323000000026,0,2,18
+S4,auction,hungarian,battery_Wh,lower is better,20,-33.15576359092711,0.0,-85.24979278023534,2.49938457175372,8,5,7
+S4,auction,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S4,auction,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,-0.09117964999999799,0.0,-1.161272593749995,1.093076400000001,3,2,15
+S4,random,hungarian,battery_Wh,lower is better,20,1909.7295805496587,1885.7481786626854,1786.591026419496,2032.9983885249032,0,20,0
+S4,random,hungarian,completed,higher is better,20,-0.9,-1.0,-1.4,-0.5,0,13,7
+S4,random,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,27.82504235000001,24.80085200000002,20.048876117500008,35.605606676250005,1,19,0
+S4,roundrobin,hungarian,battery_Wh,lower is better,20,2032.759813414366,2030.791375533655,1924.7298104762606,2144.4358573466807,0,20,0
+S4,roundrobin,hungarian,completed,higher is better,20,-0.9,-1.0,-1.35,-0.5,0,12,8
+S4,roundrobin,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,15.684508699999999,13.321416999999997,7.432036704999992,23.562988194999992,4,16,0
+S4,greedy_minmax,hungarian,battery_Wh,lower is better,20,290.39558991086466,284.17348743193133,138.1612294810899,433.41195167834445,5,15,0
+S4,greedy_minmax,hungarian,completed,higher is better,20,-0.05,0.0,-0.15,0.0,0,1,19
+S4,greedy_minmax,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,9.324478550000004,10.320461500000022,2.929819804999998,15.71923192374999,5,15,0
+S4,annealing,hungarian,battery_Wh,lower is better,20,-23.5827044825357,0.0,-61.21222717844405,0.6184553533484188,8,6,6
+S4,annealing,hungarian,completed,higher is better,20,0,0.0,0.0,0.0,0,0,20
+S4,annealing,hungarian,mean_deadline_limited_pickup_wait_s,lower is better; includes capped waiting for missed pickups,20,0.38922005000000015,0.0,-0.6517721500000022,1.5752561000000043,1,2,17

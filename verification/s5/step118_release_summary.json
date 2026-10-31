@@ -1,0 +1,43 @@
+{
+  "battery_constraint_blocked_pair_evaluations": 148625,
+  "blocked_candidate_insertions": 245775,
+  "calibration_status": "No real-vehicle battery energy calibration",
+  "completed": 14982,
+  "frozen_source_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "hard_real_time_status": "Not demonstrated; empirical 300ms budget violations",
+  "indexed_raw_archived_files": 4000,
+  "kernel_delta": {
+    "current_platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+    "current_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "exception_scope": "Exact documented Linux kernel revision only; not proof of identical runtime timing",
+    "frozen_platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "frozen_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "glibc": [
+      "glibc",
+      "2.43"
+    ],
+    "machine": "x86_64"
+  },
+  "locked_manifest_sha256": "b847b3b88d68411adf2aca076946e6bf26b2d2e89c582ceea78f09a07e2b1dfe",
+  "locked_protocol_sha256": "795b77c22a3b9a06142acf35271111afb7201fc2149e5a98483828b881696432",
+  "measured_dispatches": 10750,
+  "original_640_campaign_checkpoint_sha256": "b8c7f04cdd7781d606ea5632985ef00c791e77a6e21e30dfa8a7a1f363b8a86c",
+  "original_step115_release_sha256": "44a07867229439dcc7fecdcb523fc0b988f6c312367c2719cc409e9630be7d8a",
+  "over_300ms": 389,
+  "paired_seed_sets": 20,
+  "phase": "post-frozen FIX-19 supplementary",
+  "raw_archive_delivery": "Not embedded; preserved externally in 160 existing run directories",
+  "requests": 16000,
+  "s5_runs": 160,
+  "significant_vs_hungarian_after_holm": [
+    "random",
+    "roundrobin"
+  ],
+  "step117c_campaign_checkpoint_sha256": "50c1ccfebb7cc235166e85c33117783a4af84d8bdc497ed394ffa9598f42c9f5",
+  "step117c_run_level_sha256": "6a011ff9256376c6936d3cf32d4362abe31f2385e7994e298259831eb3991548",
+  "step117d_analysis_release_sha256": "d285a42506b19a737204a1570e78a0035bbe08fb5d352ef4a4b515fbb5124529",
+  "step117d_analysis_script_sha256": "955fdc777fcd76fa9229032f022be54385bdb63caedb391d455d9da6757f443c",
+  "step117d_release_verified_files": 9,
+  "study": "FIX-24 S5 supplementary 25%-SOC stress test; S4 CLI workload",
+  "uncompleted": 1018
+}

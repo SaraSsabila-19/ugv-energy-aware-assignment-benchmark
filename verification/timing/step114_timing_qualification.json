@@ -1,0 +1,74 @@
+{
+  "step": "114",
+  "created_utc": "2026-10-30T11:43:24.798646+00:00",
+  "reviewed_frozen_source_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "reviewed_manifest_sha256": "33361ce7a27c547cfa0dbb1a1fd37506b75d263d3ccf2334805428d545096189",
+  "runs": 640,
+  "paired_scenario_seed_workloads": 80,
+  "dispatches": 25512,
+  "recorded_dispatch_budget_ms": 300,
+  "deadline_violations": 77,
+  "measured_violation_pct": 0.301818751959862,
+  "measured_total_p99_ms": 248.70950457163414,
+  "measured_worst_dispatch_ms": 2059.2751189979026,
+  "matrix_share_of_missed_dispatch_wall_time_pct": 98.52596316634802,
+  "scenarios": [
+    {
+      "scenario": "S1",
+      "dispatches": 3840,
+      "over_300ms": 0,
+      "miss_pct": 0.0,
+      "p50_ms": 23.26332399934472,
+      "p95_ms": 62.49905180138739,
+      "p99_ms": 84.28048112193217,
+      "maximum_ms": 148.5409909982991
+    },
+    {
+      "scenario": "S2",
+      "dispatches": 5600,
+      "over_300ms": 1,
+      "miss_pct": 0.017857142857142856,
+      "p50_ms": 36.00820200153976,
+      "p95_ms": 99.14733889727358,
+      "p99_ms": 135.8716608983196,
+      "maximum_ms": 422.4430169997504
+    },
+    {
+      "scenario": "S3",
+      "dispatches": 7920,
+      "over_300ms": 35,
+      "miss_pct": 0.44191919191919193,
+      "p50_ms": 66.51014249837317,
+      "p95_ms": 193.92467224715796,
+      "p99_ms": 269.0370188607993,
+      "maximum_ms": 2059.2751189979026
+    },
+    {
+      "scenario": "S4",
+      "dispatches": 8152,
+      "over_300ms": 41,
+      "miss_pct": 0.5029440628066733,
+      "p50_ms": 68.3210714996676,
+      "p95_ms": 195.3709808505664,
+      "p99_ms": 270.9388199184831,
+      "maximum_ms": 458.99756099970546
+    }
+  ],
+  "repeatability_critical_S3_greedy_minmax": {
+    "repetitions": 5,
+    "target_above_300ms": 5,
+    "target_min_ms": 370.9073770005489,
+    "target_max_ms": 402.03806300269207
+  },
+  "fix21_geometry_promoted": false,
+  "accepted_main_campaign_source": "FIX-19",
+  "interpretation": "Observed instrumented dispatch processing on tested software and hardware; NOT a hard real-time worst-case guarantee.",
+  "excluded_from_measured_scope": [
+    "sensing and perception delays",
+    "network communication",
+    "actuator commands",
+    "complete robot control-loop delays",
+    "deployment worst-case scheduling",
+    "independent physical hardware validation"
+  ]
+}

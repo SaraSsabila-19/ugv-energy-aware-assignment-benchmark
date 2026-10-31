@@ -1,0 +1,5 @@
+scenario,algorithm,paired_seeds,alpha0_mean_battery_Wh,alpha1_mean_battery_Wh,alpha1_minus_alpha0_battery_Wh,battery_savings_pct,mean_energy_delta_ci95_low_Wh,mean_energy_delta_ci95_high_Wh,energy_signflip_two_sided_p,energy_savings_seeds,energy_increase_seeds,mean_capped_wait_delta_s,mean_wait_delta_ci95_low_s,mean_wait_delta_ci95_high_s,wait_signflip_two_sided_p,total_completion_delta,energy_holm_adjusted_p,energy_significant_holm_0_05
+S3,hungarian,18,5884.2962,5740.4977,-143.7986,2.4438,-234.27,-53.3272,0.00463104248046875,16,2,4.3884,-1.2048,9.9815,0.11673736572265625,0,0.018524169921875,True
+S3,greedy,18,5902.6985,5759.6861,-143.0124,2.4228,-237.7901,-48.2347,0.00675201416015625,15,3,2.7968,-5.6256,11.2193,0.4904632568359375,0,0.02025604248046875,True
+S4,hungarian,18,5902.5035,5809.0517,-93.4518,1.5833,-191.2885,4.3849,0.06027984619140625,14,4,-0.3763,-6.2069,5.4543,0.892120361328125,1,0.06634521484375,False
+S4,greedy,18,5897.9058,5773.0217,-124.8841,2.1174,-237.1936,-12.5747,0.033172607421875,15,3,1.4101,-4.8513,7.6715,0.6413497924804688,0,0.06634521484375,False

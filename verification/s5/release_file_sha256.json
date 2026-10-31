@@ -1,0 +1,13 @@
+{
+  "README.md": "925cc8731ec2c60c35dd361416ed266fbbfb13d08790cf2cd3ea14ae16a1d596",
+  "analysis/Step117D_S5_Manuscript_Results.md": "a27908a421e67b7b78c3888bfba1d26861d6185959906530caf21b4d7f35ddc6",
+  "analysis/step117d_s5_algorithm_summary.csv": "7413f095e02aab499cbf0a38d67c0772289610c01d5bfc547b336274638f5ad2",
+  "analysis/step117d_s5_full_soc_s4_context.csv": "b0e2518e22f6dbdb32f23b6b53b43424e4dcadf366529219736d85f66fca388b",
+  "analysis/step117d_s5_paired_vs_hungarian.csv": "6669035093f3b585de3f1e347c8b6bcdac258b43d6231a7ab85ce33f84c2d717",
+  "analysis/step117d_shareable_analysis.zip": "d285a42506b19a737204a1570e78a0035bbe08fb5d352ef4a4b515fbb5124529",
+  "archive_file_checksums_160.csv": "f3912e8a411506d8abd78d9574210845d0950be9744681a1d51e827e3f976011",
+  "archive_index_160.csv": "7e3015ee08f18d3f81362ddac3f88e88561d58e054b58981a26daf865018d915",
+  "protocol/step117b_s5_160_manifest.csv": "b847b3b88d68411adf2aca076946e6bf26b2d2e89c582ceea78f09a07e2b1dfe",
+  "protocol/step117b_s5_analysis_protocol.json": "795b77c22a3b9a06142acf35271111afb7201fc2149e5a98483828b881696432",
+  "step118_release_summary.json": "1152cf2993e1bfe9e26c41851a0f852b14ab58380838a5d3bed322373c7b07ed"
+}

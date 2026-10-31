@@ -1,0 +1,96 @@
+{
+  "freeze_status": "FROZEN_CANDIDATE",
+  "approved_source_candidate": "FIX-19",
+  "source_sha256": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+  "manifest_sha256": "33361ce7a27c547cfa0dbb1a1fd37506b75d263d3ccf2334805428d545096189",
+  "inputs": {
+    "utp_graph.graphml": "ebd138a83763f11172e079f40457b371be7eebcd2e3aa018aeda13d9d70114f4",
+    "hotspot_locations.csv": "6a55a275f2ac18ab383d2efcd67a31250602503a62fa3c5bf2f3f504ae0b979d"
+  },
+  "source_tree": {
+    "app.py": "7b52bb550414469937da3098f91313b366137d43bd48b8465b840a97bffeb0a0",
+    "hotspot_locations.csv": "6a55a275f2ac18ab383d2efcd67a31250602503a62fa3c5bf2f3f504ae0b979d",
+    "utp_graph.graphml": "ebd138a83763f11172e079f40457b371be7eebcd2e3aa018aeda13d9d70114f4",
+    "validation/fix17_annealing_repeatability_20261028T163943Z_20377/annealing_repeat_2.log": "783e694bcc795452a54aa89c2fc8cf958a94a3f89c5a0fe5856bafbc2435252d",
+    "validation/fix17_annealing_repeatability_20261028T163943Z_20377/annealing_repeat_3.log": "5cd6bafec6fb51a725a3441b0c5d99b6b4a8a734d6dc13c963eadce3a0093a33",
+    "validation/fix17_annealing_repeatability_20261028T163943Z_20377/annealing_repeatability_report.json": "5eaa8162bdd2dfb88f6ebcdff3585d0c66f00bc7e799f08c82c6ea29452333db",
+    "validation/fix17_auction_ab_20261028T162338Z_19839/comparison_report.json": "4b94ac4df4a4933e0e0f1108aee551da30563fda2a82ffef3cf1740cbdd177bc",
+    "validation/fix17_auction_ab_20261028T162338Z_19839/simulation.log": "62ce5536bfa788aca1e306117dd554473af9cb69d0f83bdb0b964a84a1d0f133",
+    "validation/fix17_auction_repeatability_20261028T162525Z_19868/repeat_2.log": "61fedd0ba06f9a8810f2e2b64157845f989bf852f3319e421b0454d83913d9c7",
+    "validation/fix17_auction_repeatability_20261028T162525Z_19868/repeat_3.log": "f323787c6a85554370261ca965d58634f9fa033ec5732cd75dab8b93b29ad190",
+    "validation/fix17_auction_repeatability_20261028T162525Z_19868/repeatability_report.json": "0345558aa339de1374d0580c9456c0658cd05f8bbefabd4642ea456e72c023fa",
+    "validation/fix17_random_minmax_20261028T162800Z_20190/cross_algorithm_report.json": "5ec471a9753084f7b0c44dbe8c122b0fadc5f694ee4069bbe9a235eea18f98ad",
+    "validation/fix17_random_minmax_20261028T162800Z_20190/greedy_minmax.log": "6aedee32ffa26a5b6464ab9d1085d8fa0240b6e9af72fc5a983bb9cb4ead1281",
+    "validation/fix17_random_minmax_20261028T162800Z_20190/random.log": "f67b338737f2257fe3da0921afdf98fe92d9682180a66bfb01880ccbee6e9687",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/annealing.log": "23523d2a130831dcd2b1620de1d195422bfcfcf51dfa90d4fa7321ebf72bbc29",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/greedy.log": "825f8cbd687d3ab15d5403ca16a87e0ac343aa81c2fd407c29029edd1f0106ad",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/hungarian.log": "582f974cc9a89313570750579ca4373aa34a9b3123f8432c07c831438d901728",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/mcmf.log": "df155feb7626af679a491f689ea30e58a5ffba756017aaf4bc705df598cab3d2",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/remaining_algorithms_report.json": "90b3916026a2f9a1dc4f9b25e30bd6ede632ae25ba0ee9a5f44bc8fcc94a062e",
+    "validation/fix17_remaining_algorithms_20261028T163227Z_20258/roundrobin.log": "7ded343d58125dfbb05e7b8a76b7e907eede0214c3e1cddcfd2810ae4dcc6e25"
+  },
+  "algorithm_decision_hashes": {
+    "greedy": "96ec66059be7874a8bd0ca7ba5a3b9f84539410debff6e6c39471cc20c8f9064",
+    "hungarian": "7f3d0bef1312d932062ed1e342193bad144f31fb1327ab6292c7f6a3908eb704",
+    "mcmf": "dcd2473b20041cca25129f2118e9ffce1ccdb1591b986653556fc5fca7e9a6db",
+    "auction": "9d02756fb250906a8a9f32fefe2eb8d1d3858593cd8bf8c2d83130ea62680f8f",
+    "random": "9601c125b4a11a5e20647feebffcc63b2eaba470ebe568ece3acc22fb89b68fb",
+    "roundrobin": "22e1c69a0e257bf1f23f7fc2a07fe474f7e31a66f3773a1758d20de0163ebc2a",
+    "greedy_minmax": "f8e0e7d6bfde586e2b5b4f87f20b7b90560facdd318c0848efcf441e1b665bd2",
+    "annealing": "1e0740bebf3d6444cc6092b8d0c5703db306aa6b778692622702751cb545a99d"
+  },
+  "vehicle_pattern_hashes": {
+    "greedy": "095086e7a3e09f7e5bb68ef64435ff94a3d3ad2793e3f5c4f1d298435c41b4d5",
+    "hungarian": "2a8a4458886a55211cd95658f7b6a29c45381c2efe107b2b59d138742fd6a432",
+    "mcmf": "0fafa1eba10817101fbe5a51cac166c0fd6335793390208ff50658ffeb8dfb3e",
+    "auction": "2a8a4458886a55211cd95658f7b6a29c45381c2efe107b2b59d138742fd6a432",
+    "random": "2154e109d1e630ad9c0960dafc4e44891b5df8a003f97983bd504e262d87304f",
+    "roundrobin": "71304007da5b0682eef4c6db60d45b58eb72c372e533f85d17ac86fb5fbf3229",
+    "greedy_minmax": "f3a5794a169b4682beda75a868abdb0a1d4ccc130b34d90d9cd9014903a8617d",
+    "annealing": "f25ce10b0dc80e9db06999b67825f8f50e0399cbd4cd4a4b9b49d52278fbb477"
+  },
+  "solver_definitions": {
+    "assign_hungarian": {
+      "definition_line": 7309,
+      "call_sites": []
+    },
+    "assign_greedy": {
+      "definition_line": 7369,
+      "call_sites": []
+    },
+    "assign_mcmf": {
+      "definition_line": 7441,
+      "call_sites": []
+    },
+    "assign_auction": {
+      "definition_line": 7519,
+      "call_sites": []
+    },
+    "assign_greedy_minmax": {
+      "definition_line": 7696,
+      "call_sites": []
+    },
+    "assign_simulated_annealing": {
+      "definition_line": 7765,
+      "call_sites": []
+    }
+  },
+  "smoke_tests_passed": 11,
+  "experiment_count": 640,
+  "main_baseline": {
+    "initial_soc": 1.0,
+    "hvac_mode": "off",
+    "charger_dc_power_w": 1500.0,
+    "alpha_energy": 1.0,
+    "beta_time": 1.0
+  },
+  "scientific_limitations": [
+    "No hard 300 ms dispatch guarantee",
+    "Physical battery and charger parameters not fully measured",
+    "Energy feasibility may be weakly active at 100% SOC",
+    "One smoke-test seed cannot establish algorithm ranking",
+    "Twenty-eight algorithm/scenario combinations lack direct smoke coverage",
+    "Full campaign has not yet been executed"
+  ],
+  "campaign_status": "NOT_STARTED"
+}
