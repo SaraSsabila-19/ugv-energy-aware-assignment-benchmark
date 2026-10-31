@@ -177,3 +177,8 @@ the relevant raw-run archives.
 Review the controller code and its output-directory
 assumptions before launching any experimental campaign.
 Do not overwrite the accepted historical archives.
+
+
+## Timing-evidence interpretation
+
+See [Computational Timing Evidence and Interpretation](TIMING_EVIDENCE_INTERPRETATION.md) for the independently recalculated phase attribution, repeatability limitations, and qualified manuscript wording.
