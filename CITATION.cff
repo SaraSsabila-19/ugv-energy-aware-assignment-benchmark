@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this research software if you use the UGV benchmark. The associated journal-paper citation is pending publication."
+type: software
+title: "A Reproducible Energy-Aware Benchmarking Framework for Real-Time Assignment in Autonomous UGV Fleets"
+authors:
+  - family-names: "Salsabila"
+    given-names: "Saraban"
+repository-code: "https://github.com/SaraSsabila-19/ugv-energy-aware-assignment-benchmark"
