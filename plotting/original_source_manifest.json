@@ -1,0 +1,56 @@
+{
+  "run_level_640.csv": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "analysis/run_level_640.csv",
+    "sha256": "4d62fd1e498b8163fe03d81c7ed177395e89a48d5c404ee5c0ceda8419929b4e",
+    "bytes": 167690
+  },
+  "holdout_paired.csv": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "ablation/holdout_paired.csv",
+    "sha256": "6159e5644a3c02f014774b3b78a30a92152b6c952ff101857f3c5704827b2741",
+    "bytes": 4356
+  },
+  "ablation_inference.csv": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "ablation/step110d_paired_inference.csv",
+    "sha256": "51fb7699bcf93e7065da1a8b081ef18cbfa5ce192bd9ecae822e6d11946feaf1",
+    "bytes": 1090
+  },
+  "physics_sensitivity.csv": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "physics/step111b_exploratory_sensitivity.csv",
+    "sha256": "8835047ce4091dd5e82c9d17ffc8b23a944e0a6a67129e29725676db0390f164",
+    "bytes": 4109
+  },
+  "latency_scenario.csv": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "latency/step114_scenario_timing.csv",
+    "sha256": "df4f7634fd6c7c263382cb16ae12cdffea7f4a56d65ba5694ccb03e53cd561cf",
+    "bytes": 473
+  },
+  "latency_audit.json": {
+    "source_archive": "step115_compact_evidence_release.zip",
+    "source_member": "latency/step112a_latency_audit.json",
+    "sha256": "957ddf385f084ae2932b6bbc124429b4960a75df5f4362201d8b4ed40941ed8c",
+    "bytes": 8592
+  },
+  "s5_algorithm_summary.csv": {
+    "source_archive": "step118_s5_compact_evidence_release.zip",
+    "source_member": "analysis/step117d_s5_algorithm_summary.csv",
+    "sha256": "7413f095e02aab499cbf0a38d67c0772289610c01d5bfc547b336274638f5ad2",
+    "bytes": 1475
+  },
+  "s5_s4_context.csv": {
+    "source_archive": "step118_s5_compact_evidence_release.zip",
+    "source_member": "analysis/step117d_s5_full_soc_s4_context.csv",
+    "sha256": "b0e2518e22f6dbdb32f23b6b53b43424e4dcadf366529219736d85f66fca388b",
+    "bytes": 653
+  },
+  "s5_paired.csv": {
+    "source_archive": "step118_s5_compact_evidence_release.zip",
+    "source_member": "analysis/step117d_s5_paired_vs_hungarian.csv",
+    "sha256": "6669035093f3b585de3f1e347c8b6bcdac258b43d6231a7ab85ce33f84c2d717",
+    "bytes": 1008
+  }
+}
